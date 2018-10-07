@@ -1,0 +1,41 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitCompany": "",
+    "baseName": "helpdesk",
+    "packageName": "io.helpdesk",
+    "packageFolder": "io/helpdesk",
+    "serverPort": 8080,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": "spring-websocket",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "enableSwaggerCodegen": "true",
+    "messageBroker": "kafka",
+    "buildTool": "gradle",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "protractor"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "ja",
+      "en"
+    ],
+    "clientFramework": "react",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.4.1",
+    "jwtSecretKey": "MWEwZjRhMGVlYmYwOGZhZDQ4ZTY3ZGUxMGFhMjc1NzYzMjhjYTYwN2U4ZGIwODU0ZmI3YWRmZWYwYTUxZWRkZjUzMGM2NGNlMzdhOTAxZTYyNjhkNjJjYjUwYjFhNjA2NTI2MGU4ODMwMmQ4MDAwOTEyZjdhNGJiYWY0MjhhMzE="
+  },
+  "git-provider": "GitHub",
+  "git-company": "sagendejonge",
+  "repository-name": "helpdesk"
+}
